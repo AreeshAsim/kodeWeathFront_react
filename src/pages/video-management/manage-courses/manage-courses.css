@@ -1,0 +1,55 @@
+.btn-link{
+    text-decoration: none !important;
+    
+    
+    color:#3b3f5c;
+   
+    font-size: 18px;
+    font-weight: 700;
+ 
+  
+    justify-content: "space-between";  
+   
+}
+
+.sectiondisplay h5{
+      display: inline-block;
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      padding: 0 20px;
+
+
+}
+.card-header {
+    background-color:"red"; 
+    padding:"0px";
+}
+.card-body h5{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.btn_align{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+
+    .managecard-padding{
+        padding: 0px;
+    }
+    .btn .badge {
+        position: relative;
+        top: -1px;
+        padding-top: 8px;
+    }
+
+    .coursTitle{
+        /* text-align: center; */
+        font-weight: 500;
+        /* margin-left: 12px; */
+    }

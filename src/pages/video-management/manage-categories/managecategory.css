@@ -1,0 +1,10 @@
+.paginationWrapper ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+.addcourse{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,94 @@
+
+.w_icon{
+  position:absolute;
+  right:8px;
+  top:54%
+}
+
+
+
+.addSection{
+    margin-top: 10px;
+   
+}
+.addCourseCard{
+    margin-top: 20px;
+} 
+
+.addCardOption{
+    margin-top: 25px;
+}
+.imagCard{
+    margin-top: 20px;
+}
+
+
+
+/* Add Course Componenent Style*/
+
+.accordion{
+    background-color: white;
+background-clip: border-box;
+border: 1px solid #dfe2e6;
+border-radius: 12px;
+margin-bottom: 1.5rem;
+box-shadow: 0 3px 3px -2px rgb(39 44 51 / 10%), 0 3px 4px 0 rgb(39 44 51 / 4%), 0 1px 8px 0 rgb(39 44 51 / 2%);
+overflow: hidden; 
+}
+
+.accordionheader{
+    background-color: white;
+    padding: 0px;
+}
+
+
+/* uplaod button */
+.file {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .file > input[type='file'] {
+    display: none
+  }
+  
+  .file > label {
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+    outline: 0;
+    user-select: none;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    background-color: hsl(0, 0%, 100%);
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .file > label > i {
+    padding-right: 5px;
+  }
+  
+ 
+  
+  .file--upload > label {
+    border-color:hsl(204, 86%, 53%);
+    background-color:#007bff;
+   
+  }
+  
+  .file--upload > label:active {
+    background-color:#0062cc;;
+  }
